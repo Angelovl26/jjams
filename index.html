@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JJAMS FOODS - Banana Flour with Moringa & Kalabasa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fafafa; /* Soft light background */
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #a5d6a7, #ffe0b2); /* Pastel Green to Pastel Orange gradient */
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        header img {
+            width: 140px;
+            height: auto;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        header img:hover {
+            transform: scale(1.1);
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            letter-spacing: 3px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        header p {
+            font-size: 1.4em;
+            font-weight: 300;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Main Section */
+        section {
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        .product-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .product-info img {
+            width: 350px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product-info img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-info div {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .product-info h2 {
+            font-size: 2.8em;
+            color: #ff7043; /* Pastel Orange */
+            margin-bottom: 20px;
+        }
+
+        .product-info p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Features Section */
+        .features {
+            background: #fff8e1; /* Pastel Yellow */
+            padding: 60px 20px;
+            box-shadow: 0 -6px 15px rgba(0, 0, 0, 0.05);
+            margin-top: 40px;
+        }
+
+        .features h2 {
+            font-size: 3em;
+            color: #388e3c; /* Pastel Green */
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            font-size: 1.3em;
+            color: #333;
+            margin: 15px 0;
+            position: relative;
+            padding-left: 30px;
+            line-height: 1.6;
+        }
+
+        .features li:before {
+            content: "✔";
+            color: #ff7043; /* Pastel Orange */
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1.5em;
+        }
+
+        /* Groupmates Section */
+        .groupmates {
+            padding: 60px 20px;
+            background-color: #ffcc80; /* Pastel Orange */
+            text-align: center;
+            color: white;
+        }
+
+        .groupmates h3 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .groupmates ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .groupmates li {
+            font-size: 1.4em;
+            margin: 12px 0;
+            font-weight: 400;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        /* Hover Effects */
+        .product-info h2, .features h2, .groupmates h3 {
+            transition: color 0.3s ease;
+        }
+
+        .product-info h2:hover, .features h2:hover, .groupmates h3:hover {
+            color: #388e3c; /* Hover effect for headings */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-info {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .product-info img {
+                width: 90%;
+            }
+
+            .features {
+                padding: 40px 20px;
+            }
+
+            .groupmates {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="JJAMS FOODS Logo"> <!-- Replace 'logo.png' with your actual logo image -->
+    <h1 style="color: #000080;">JJAMS FOODS</h1> <!-- Navy Blue color for the main title -->
+    <p style="color: #000080;">Your Healthy Choice of Banana Flour with Moringa & Kalabasa</p> <!-- Navy Blue color for the paragraph -->
+</header>
+
+<section class="product-info">
+    <div>
+        <h2>Introducing Our Banana Flour</h2>
+        <p>At JJAMS FOODS, we combine the nutritional power of banana flour with the added benefits of moringa and kalabasa (squash). Our product is designed to be a healthier, versatile alternative to traditional flours, perfect for various dishes like pancakes, bread, and more!</p>
+    </div>
+    <img src="banana-flour.jpg" alt="Banana Flour with Moringa and Kalabasa"> <!-- Replace 'banana-flour.jpg' with your product image -->
+</section>
+
+<section class="features">
+    <h2>Why Choose JJAMS FOODS?</h2>
+    <ul>
+        <li>100% Natural Ingredients</li>
+        <li>Rich in Nutrients: Moringa & Kalabasa boost your health</li>
+        <li>Gluten-Free and Vegan-Friendly</li>
+        <li>Perfect for Baking, Cooking, and Smoothies</li>
+        <li>Promotes Digestive Health</li>
+        <li>Supports Immune System Health</li>
+    </ul>
+</section>
+
+<section class="groupmates">
+    <h3 style="color: #4CAF50;">Meet Our Team</h3> <!-- Regular Green for the title -->
+    <ul>
+    <li style="color: black;">Joenalyn Plazo</li>
+    <li style="color: black;">Jenelyn Perdon</li>
+    <li style="color: black;">Mary Grace Señar</li>
+    <li style="color: black;">Angelo Labatete</li>
+    <li style="color: black;">Lester Cornel</li>
+</ul>
+
+</section>
+
+
+
+<footer>
+    <p>&copy; 2025 JJAMS FOODS. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
